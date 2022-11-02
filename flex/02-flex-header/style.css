@@ -3,13 +3,14 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
-  flex-grow: 1;
+  align-items: center;
 }
 
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
+  flex-direction: row;
   background: white;
   padding: 4px 32px;
 }
@@ -21,9 +22,9 @@ ul {
   list-style-type: none;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  gap: 8px;
   padding: 0px;
-  margin: auto;
+  margin: 8px;
   
   
 }
