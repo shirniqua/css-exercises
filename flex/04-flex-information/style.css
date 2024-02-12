@@ -1,10 +1,13 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
@@ -18,6 +21,16 @@ img {
 .container {
   display: flex;
   justify-content: center;
+  gap: 52px;
+}
+
+.item {
+  max-width: 200px;
+}
+
+.text {
+  display: block;
+  width: 200px;
 }
 
 /* do not edit this footer */
