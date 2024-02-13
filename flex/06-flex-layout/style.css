@@ -42,3 +42,22 @@ a:link {
   display: flex;
   justify-content: space-between;
 }
+
+.left-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-right: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
