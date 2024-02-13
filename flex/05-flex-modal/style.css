@@ -20,15 +20,34 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  gap: 20px;
+  
 }
 
 .item {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-shrink: 3;
+  
 }
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+
+
+
 
 .icon {
   color: royalblue;
