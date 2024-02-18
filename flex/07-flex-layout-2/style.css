@@ -15,32 +15,48 @@ body {
   font-size: 32px;
   display: flex;
   align-items: center;
+  padding-left: 16px;
+  
 }
+
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
-  width: 300px;
+  flex-shrink: 0px;
   background: royalblue;
   padding: 16px;
+  width: 300px;
 }
+
+
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 32px;
-  
+  width: 300px;
+  padding: 16px;
+  margin: 16px;
+
 }
 
 .card-deck {
   display: flex;
   flex-wrap: wrap;
-  flex: 2;
+  margin: 15px;
+  gap: 12px;
+}
+
+.ads {
+  flex: 0 0 12em;
 }
 
 .content {
@@ -50,6 +66,12 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  margin-bottom: 16px;
 }
 
 a{
